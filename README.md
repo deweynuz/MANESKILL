@@ -38,10 +38,10 @@ Section 1 of the notebook builds a de-identified participant-level dataset, `dat
 - **Primary analysis:** linear mixed model of the phase-2 total ANTS score with arm as fixed effect, the phase-1 score as covariate and a random intercept for session (REML, Kenward-Roger df, Tukey-adjusted pairwise contrasts). The same model is fitted to the change score, to each ANTS domain, to the stress scale, the PDI and the self-rated domains. Sensitivity model: additional random intercept for the session date (site proxy).
 - **Session-level sensitivity analysis:** session mean of the ANTS change, Kruskal-Wallis, Mann-Whitney U and exact permutation tests (seed 2026).
 - **Session-level task outcomes:** Fisher-Freeman-Halton exact test across arms, pairwise Fisher exact tests, Kruskal-Wallis and Mann-Whitney U tests.
-- **Allocation sensitivity analysis:** primary and session-level analyses restricted to the 14 sessions allocated in the unrestricted stage (Supplementary Table 6).
-- **Initially planned analysis** (participant-level Mann-Whitney U with Bonferroni correction) reported for transparency (Supplementary Table 5).
+- **Allocation sensitivity analysis:** primary and session-level analyses restricted to the 14 sessions allocated in the unrestricted stage (Supplementary Table 5).
+- **Initially planned analysis** (participant-level Mann-Whitney U with Bonferroni correction), as reported in the originally submitted version, kept for transparency (`outputs/supp_participant_level_analysis.csv`; not part of the revised manuscript).
 
-Correspondence between manuscript items and outputs: Table 1 → `outputs/table1.csv`; Table 2 → `outputs/table2.csv`; Table 3 → `outputs/table3_session_level.csv`; Supplementary Table 3 → `outputs/suppTable3_icc_design_effect.csv`; Supplementary Tables 4–6 → `outputs/suppTable4_pdi_items.csv`, `suppTable5_participant_level_analysis.csv`, `suppTable6_sensitivity_allocation.csv`; Figures 1–2 → `outputs/Figure1_ANTS.*`, `Figure2_task_performance.*`; Supplementary Figures 1 and 4 → `outputs/SuppFigure1_CONSORT.*`, `SuppFigure4_alarm.*`.
+Correspondence between manuscript items and outputs: Table 1 → `outputs/table1.csv`; Table 2 → `outputs/table2.csv`; Table 3 → `outputs/table3_session_level.csv`; Supplementary Table 3 → `outputs/suppTable3_icc_design_effect.csv`; Supplementary Tables 4–5 → `outputs/suppTable4_pdi_items.csv`, `suppTable5_sensitivity_allocation.csv`; Figures 1–2 → `outputs/Figure1_ANTS.*`, `Figure2_task_performance.*`; Supplementary Figures 1 and 4 → `outputs/SuppFigure1_CONSORT.*`, `SuppFigure4_alarm.*`.
 
 ## Citation
 
